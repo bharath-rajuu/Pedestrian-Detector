@@ -1,7 +1,7 @@
 import cv2
 from Human_Detection import Detector
 
-cap = cv2.VideoCapture('./testing/t3.mp4')
+cap = cv2.VideoCapture('yourvideofile.mp4')
 # size = (800, int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT)))
 # # size = (int(cap.get(cv2.CAP_PROP_FRAME_WIDTH)), int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT)))
 # print(size)
